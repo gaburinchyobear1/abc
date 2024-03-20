@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF865890-E659-4860-8AD6-1782D17693FF}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF865890-E659-4860-8AD6-1782D17693FF}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleApplication1.cpp",
+              "DocumentMoniker": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ToolTip": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T11:19:30.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
