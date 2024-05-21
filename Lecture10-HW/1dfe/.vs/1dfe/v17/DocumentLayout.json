@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\1\\Lecture10-HW\\1dfe\\",
+  "WorkspaceRootPath": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\1\\Lecture10-HW\\1dfe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E32FBFC-B27B-4C46-BF99-EA4A6237C687}|1dfe\\1dfe.vcxproj|D:\\1\\Lecture10-HW\\1dfe\\1dfe\\1dfe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{9E32FBFC-B27B-4C46-BF99-EA4A6237C687}|1dfe\\1dfe.vcxproj|C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\1\\Lecture10-HW\\1dfe\\1dfe\\1dfe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9E32FBFC-B27B-4C46-BF99-EA4A6237C687}|1dfe\\1dfe.vcxproj|solutionrelative:1dfe\\1dfe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "1dfe.cpp",
-              "DocumentMoniker": "D:\\1\\Lecture10-HW\\1dfe\\1dfe\\1dfe.cpp",
+              "DocumentMoniker": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\1\\Lecture10-HW\\1dfe\\1dfe\\1dfe.cpp",
               "RelativeDocumentMoniker": "1dfe\\1dfe.cpp",
-              "ToolTip": "D:\\1\\Lecture10-HW\\1dfe\\1dfe\\1dfe.cpp",
+              "ToolTip": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\1\\Lecture10-HW\\1dfe\\1dfe\\1dfe.cpp",
               "RelativeToolTip": "1dfe\\1dfe.cpp",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAIwCoAAAAAAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAIwFAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-21T08:27:14.672Z",
               "EditorCaption": ""

@@ -24,12 +24,7 @@ const float EARTH_REVOLUTION_PERIOD = 6.0f;
 // 달의 자전 및 공전 주기 변수
 const float MOON_ROTATION_PERIOD = 120.0f;
 const float MOON_REVOLUTION_PERIOD = 120.0f;
-
 const float SUN_ROTATION_PERIOD = 120.0f;
-
-
-
-
 
 // 원 그리기 함수
 void drawCircle(float x, float y, float radius, float angle) {
@@ -41,31 +36,31 @@ void drawCircle(float x, float y, float radius, float angle) {
     glEnd();
 }
 
-//찌그러진 무늬
+// 찌그러진 무늬
 void drawCircle_1(float x, float y, float radius, float angle) {
+    glPushMatrix();
+    glTranslatef(x + 16, y + 17, 0.0f); // 태양 중심으로 이동
+    glRotatef(angle, 0.0f, 0.0f, -1.0f); // 회전
     glBegin(GL_TRIANGLE_FAN);
-    glVertex2f(x, y);
+    glVertex2f(0, 0);
     for (int i = 0; i <= 360; ++i) {
         float cosVal = cos((i + angle) * 3.14159265f / 180.0f);
         float sinVal = sin((i + angle) * 3.14159265f / 180.0f);
-        glVertex2f(x + radius * cosVal, y + 0.3f * radius * sinVal); // y 좌표에 0.5를 곱하여 찌그러지게 만듭니다.
+        glVertex2f(radius * cosVal, 0.3f * radius * sinVal); // y 좌표에 0.3를 곱하여 찌그러지게 만듭니다.
     }
     glEnd();
+    glPopMatrix();
 }
 
 //동그란 무늬
 void drawCircle_2() {
     drawCircle((WIDTH / 2) - 60, HEIGHT / 2, 40, 0.0f);
-   
+
 
 }
-
-
-
-
 // 별 모양 그리기 함수
 void drawStar(float x, float y, float radius, float angle) {
-    glColor3f(1.0f, 1.0f, 0.0f); // 흰색
+    glColor3f(1.0f, 1.0f, 0.0f);
     glPushMatrix(); // 현재 행렬 상태 저장
     glTranslatef(x, y, 0.0f); // 별 중심으로 이동
     glRotatef(angle * 180.0f / 3.14159265f, 0.0f, 0.0f, 1.0f); // 별 회전
@@ -79,20 +74,15 @@ void drawStar(float x, float y, float radius, float angle) {
     glEnd();
     glPopMatrix(); // 이전 행렬 상태 복원
 }
-
 // 태양 그리기 함수
 void drawSun() {
     glColor3f(1.0f, 1.0f, 0.0f); // 노란색
-    drawCircle(WIDTH / 2, HEIGHT / 2, SUN_RADIUS, 0.0f); 
-    glColor3f(0.0f, 1.0f, 0.0f); 
-    
-    
-    
+    drawCircle(WIDTH / 2, HEIGHT / 2, SUN_RADIUS, 0.0f);
+    glColor3f(1.0f, 0.5f, 1.0f);
+
+
+
 }
-
-
-
-
 // 지구 그리기 함수
 void drawEarth() {
     glColor3f(0.0f, 0.0f, 1.0f); // 파란색
@@ -104,7 +94,6 @@ void drawEarth() {
     glRectf(-EARTH_SIDE / 2, -EARTH_SIDE / 2, EARTH_SIDE / 2, EARTH_SIDE / 2); // 정사각형으로 지구를 그림
     glPopMatrix(); // 이전 행렬 상태 복원
 }
-
 // 달 그리기 함수
 void drawMoon() {
     glColor3f(0.7f, 0.7f, 0.7f); // 회색
@@ -122,7 +111,7 @@ void draw() {
     drawCircle_1((WIDTH / 2) + 60, (HEIGHT / 2) + 60, 40, 45.0f); // 45도 회전하여 출력
     //태양무늬2
     drawCircle_2();
-    
+
     drawEarth(); // 지구 그리기
     drawMoon(); // 달 그리기
 
@@ -132,13 +121,13 @@ void draw() {
 // 업데이트 함수
 void update() {
     earthRotationAngle += (36.0f / EARTH_ROTATION_PERIOD) * (1.0f / 60.0f); // 지구의 자전
-    earthRevolutionAngle += (0.60f / EARTH_REVOLUTION_PERIOD) * (1.0f / 60.0f); // 지구의 공전ㄴ
+    earthRevolutionAngle += (0.60f / EARTH_REVOLUTION_PERIOD) * (1.0f / 60.0f); //공전
 
 
     moonRotationAngle -= (120.0f / MOON_ROTATION_PERIOD) * (1.0f / 60.0f);;   // 달의 자전
-    moonRevolutionAngle -= (120.0f / MOON_REVOLUTION_PERIOD) * (1.0f / 60.0f);;  // 달으ㅟ 공전
+    moonRevolutionAngle -= (120.0f / MOON_REVOLUTION_PERIOD) * (1.0f / 60.0f);;  //공전
 
-    
+
 
 }
 
