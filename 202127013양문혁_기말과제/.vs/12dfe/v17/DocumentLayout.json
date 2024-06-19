@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\202127013\uC591\uBB38\uD601_\uAE30\uB9D0\uACFC\uC81C\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36F089D9-3B22-4509-89C4-301942608B73}|12dfe\\12dfe.vcxproj|C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\202127013\uC591\uBB38\uD601_\uAE30\uB9D0\uACFC\uC81C\\12dfe\\12dfe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36F089D9-3B22-4509-89C4-301942608B73}|12dfe\\12dfe.vcxproj|solutionrelative:12dfe\\12dfe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\202127013\uC591\uBB38\uD601_\uAE30\uB9D0\uACFC\uC81C\\packages\\glfw.3.4.0\\build\\native\\include\\GLFW\\glfw3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:packages\\glfw.3.4.0\\build\\native\\include\\GLFW\\glfw3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "glfw3.h",
+              "DocumentMoniker": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\202127013\uC591\uBB38\uD601_\uAE30\uB9D0\uACFC\uC81C\\packages\\glfw.3.4.0\\build\\native\\include\\GLFW\\glfw3.h",
+              "RelativeDocumentMoniker": "packages\\glfw.3.4.0\\build\\native\\include\\GLFW\\glfw3.h",
+              "ToolTip": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\202127013\uC591\uBB38\uD601_\uAE30\uB9D0\uACFC\uC81C\\packages\\glfw.3.4.0\\build\\native\\include\\GLFW\\glfw3.h",
+              "RelativeToolTip": "packages\\glfw.3.4.0\\build\\native\\include\\GLFW\\glfw3.h",
+              "ViewState": "AQIAAJIMAAAAAAAAAAASwKIMAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T21:29:29.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "12dfe.cpp",
+              "DocumentMoniker": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\202127013\uC591\uBB38\uD601_\uAE30\uB9D0\uACFC\uC81C\\12dfe\\12dfe.cpp",
+              "RelativeDocumentMoniker": "12dfe\\12dfe.cpp",
+              "ToolTip": "C:\\Users\\shrck\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\202127013\uC591\uBB38\uD601_\uAE30\uB9D0\uACFC\uC81C\\12dfe\\12dfe.cpp",
+              "RelativeToolTip": "12dfe\\12dfe.cpp",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwN4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T20:52:07.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
